@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.19.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "dxf-writer": "^1.18.4",
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.213"
+  }
+}
